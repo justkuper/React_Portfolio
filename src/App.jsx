@@ -5,7 +5,7 @@ import Content from "./Content";
 import react,{useState} from 'react'
 
 function App() {
-  const [currPage,setCurrentPage]  = useState("About");
+  const [currPage,setCurrentPage]  = useState("Portfolio");
   return (
     <div className="App">
      <Header currPage = {currPage} setCurrPage={setCurrentPage}/>

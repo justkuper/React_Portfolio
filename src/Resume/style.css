@@ -1,3 +1,14 @@
 .Resume{
     margin:3%;
 }
+
+.Resume embed {
+    float:right;
+    width:25%;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.Resume h1{
+    text-align: center;
+}

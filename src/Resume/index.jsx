@@ -5,8 +5,9 @@ import "./style.css";
 export default function Resume() {
     return (
         <div className="Resume">
+            <embed src={resumePDF} width="600" height="500" type="application/pdf" />
             <h1>Resume</h1>
-            <a href={resumePDF} download>Download My Resume</a>
+            {/* <a href={resumePDF} download>Download My Resume</a> */}
             <br/>
             <h3>Proficiencies</h3>
             <ul>

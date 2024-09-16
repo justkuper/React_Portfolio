@@ -9,20 +9,19 @@ export default function Portfolio() {
     const [projects] = useState([
         {
             title: "Nestify",
-            description: "Description of Nestify",
             img: nestifyIMG,
             link: "https://github.com/justkuper/Nestify"
         },
         {
             title: "Prestige Planners",
-            description: "Description of Project 2",
             img: prestigeplannersIMG,
+            deploy: "https://prestigeplanners.netlify.app",
             link: "https://github.com/justkuper/PrestigePlanner_Client"
         },
         {
             title: "What's for Dinner",
-            description: "Description of Project 3",
             img: whatsfordinnerIMG,
+            deploy: "https://justkuper.github.io/Project-1/",
             link: "https://github.com/justkuper/Project-1"
         }
     ])
