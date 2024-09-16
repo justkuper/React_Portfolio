@@ -3,9 +3,9 @@ import "./style.css";
 
 export default function Contact() {
     const [formState, setFormState] = useState({
-        name: "",
-        email: "",
-        message: ""
+        Name: "",
+        Email: "",
+        Message: ""
     })
     const [errState, setErrState] = useState("")
     const validateEmail = email => {
@@ -39,15 +39,15 @@ export default function Contact() {
             <form>
                 <div>
                     <label htmlFor="name-input">Name:</label>
-                    <input onBlur={blurHandle} value={formState.name} onChange={changeHandle} name="name" placeholder="name" id="name-input" type="text" />
+                    <input onBlur={blurHandle} value={formState.name} onChange={changeHandle} name="name" placeholder="Enter Name" id="name-input" type="text" />
                 </div>
                 <div>
                     <label htmlFor="email-input">Email:</label>
-                    <input onBlur={blurHandle} value={formState.email} onChange={changeHandle} name="email" placeholder="email" id="email-input" type="text" />
+                    <input onBlur={blurHandle} value={formState.email} onChange={changeHandle} name="email" placeholder="Enter Email" id="email-input" type="text" />
                 </div>
                 <div>
                     <label htmlFor="message-input">Message:</label>
-                    <textarea onBlur={blurHandle} value={formState.message} onChange={changeHandle} rows="10" name="message" placeholder="message" id="message-input"></textarea>
+                    <textarea onBlur={blurHandle} value={formState.message} onChange={changeHandle} rows="10" name="message" placeholder="Enter Message" id="message-input"></textarea>
                 </div>
                 <div>
                     <button disabled={errState || !formState.name || !formState.email || !formState.message || !validateEmail(formState.email)}>Submit</button>
