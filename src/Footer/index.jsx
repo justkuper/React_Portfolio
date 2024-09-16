@@ -16,7 +16,7 @@ export default function Footer() {
                         <span className="d-inline-block mx-1 name">[ github ]</span>
                     </a>
                 </li>
-                <li className='center-text'><h3>Made with ❤️ and Create React App</h3>
+                <li className='center-text'><h3>Made with magic. Nothing to see here.</h3>
                 <br />
                 <h5>&copy; Kuper Bank 2024</h5>
                 </li>
