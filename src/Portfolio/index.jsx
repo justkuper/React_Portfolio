@@ -1,8 +1,8 @@
 import react, { useState } from 'react';
 import PortfolioCard from "../PortfolioCard";
 import nestifyIMG from "../images/nestify.png";
-import project2IMG from "../images/project2.png";
-import project1IMG from "../images/project1.png";
+import prestigeplannersIMG from "../images/prestigeplanners.png";
+import whatsfordinnerIMG from "../images/whatsfordinner.png";
 import "./style.css";
 
 export default function Portfolio() {
@@ -16,13 +16,13 @@ export default function Portfolio() {
         {
             title: "Prestige Planners",
             description: "Description of Project 2",
-            img: project2IMG,
+            img: prestigeplannersIMG,
             link: "https://github.com/justkuper/PrestigePlanner_Client"
         },
         {
             title: "What's for Dinner",
             description: "Description of Project 3",
-            img: project1IMG,
+            img: whatsfordinnerIMG,
             link: "https://github.com/justkuper/Project-1"
         }
     ])
