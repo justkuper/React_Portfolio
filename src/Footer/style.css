@@ -24,3 +24,7 @@
 .Footer a:hover {
     opacity:0.5
 }
+
+.center-text {
+    text-align:center;
+}
