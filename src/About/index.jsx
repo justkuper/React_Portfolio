@@ -6,8 +6,12 @@ export default function About() {
     return (
         <div className="About">
             <img src={pic} />
-            <h1>About Me</h1>
-            <h2> I have gone skydiving twice, and now roller coasters do nothing for me. Trek over Wars. Picard over Kirk. Ryker with beard. It is pronounced data not Data. Now we both know. </h2>
+            <p>About Me</p>
+            <h2> I have gone skydiving twice, and now roller coasters do nothing for me.
+            <br /> Trek over Wars. 🖖
+            <br />Picard over Kirk. "Make it so."
+            <br />Ryker with a beard. 🧔🏽
+            <br />It is pronounced data not Data. Now we both know. 🗣️ </h2>
            
         </div>
     )
