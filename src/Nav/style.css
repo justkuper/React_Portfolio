@@ -25,7 +25,7 @@
 }
 
 .Nav>ul>li:hover {
-   background:grey;
+   background:darkgray;
     opacity: 0.9;
    /* border-radius:15px 0; */
     cursor: pointer;

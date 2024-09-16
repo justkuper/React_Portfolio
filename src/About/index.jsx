@@ -11,7 +11,7 @@ export default function About() {
             <br /> Trek over Wars. 🖖
             <br />Picard over Kirk. "Make it so."
             <br />Ryker with a beard. 🧔🏽
-            <br />It is pronounced data not Data. Now we both know. 🗣️ </h2>
+            <br />It is pronounced data /dætə/ not Data /deɪtə/. Now we both know. 🗣️ </h2>
            
         </div>
     )
