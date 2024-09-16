@@ -1,25 +1,29 @@
 import react, { useState } from 'react';
+import PortfolioCard from "../PortfolioCard";
+import nestifyIMG from "../images/nestify.png";
+import project2IMG from "../images/project2.png";
+import project1IMG from "../images/project1.png";
 import "./style.css";
 
 export default function Portfolio() {
     const [projects] = useState([
         {
-            title: "Project 1",
-            description: "Description of Project 1",
-            image: "",
-            link: "https://github.com"
+            title: "Nestify",
+            description: "Description of Nestify",
+            img: nestifyIMG,
+            link: "https://github.com/justkuper/Nestify"
         },
         {
-            title: "Project 2",
+            title: "Prestige Planners",
             description: "Description of Project 2",
-            image: "",
-            link: "https://github.com"
+            img: project2IMG,
+            link: "https://github.com/justkuper/PrestigePlanner_Client"
         },
         {
-            title: "Project 3",
+            title: "What's for Dinner",
             description: "Description of Project 3",
-            image: "",
-            link: "https://github.com"
+            img: project1IMG,
+            link: "https://github.com/justkuper/Project-1"
         }
     ])
     return (
