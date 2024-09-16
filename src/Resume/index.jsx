@@ -1,6 +1,6 @@
-import React from 'react'
-import resumePdf from "../images/kuperresume.pdf"
-import "./style.css"
+import React from 'react';
+import resumePdf from "../images/kuperresume.pdf";
+import "./style.css";
 
 export default function Resume() {
     return (

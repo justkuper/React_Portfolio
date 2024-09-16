@@ -1,11 +1,12 @@
 .Footer {
     height:10vh;
     /* text-align:center; */
-    background: blue;
+    background: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color:green;
 }
 
 .Footer >ul {
@@ -16,7 +17,7 @@
 }
 
 .Footer a, .Footer a:visited {
-    color:black
+    color:green
 }
 
 .Footer a:hover {

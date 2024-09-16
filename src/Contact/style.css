@@ -22,7 +22,7 @@
     background:rgba(255,255,255,0.7)
 } 
 .Contact > form > div > textarea {
-    border:2px solid black
+    border:2px solid grey;
 }
 
 .Contact button {

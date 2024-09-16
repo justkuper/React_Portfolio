@@ -1,5 +1,5 @@
-import React from 'react'
-import "./style.css"
+import React from 'react';
+import "./style.css";
 import Nav from '../Nav';
 
 export default function Header({currPage,setCurrPage}) {
