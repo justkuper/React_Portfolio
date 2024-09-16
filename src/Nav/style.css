@@ -11,10 +11,12 @@
     justify-content: flex-end;
     align-self: normal;
     align-items: center;
+    margin:10px;
 }
 
 .Nav>ul>li {
     /* height:100%; */
+    margin:10px;
     height:100%;
     display:flex;
     /* flex-grow:1; */
@@ -23,12 +25,12 @@
 }
 
 .Nav>ul>li:hover {
-   background:black;
-    opacity: 0.7;
+   background:grey;
+    opacity: 0.9;
    /* border-radius:15px 0; */
     cursor: pointer;
-    border: solid grey;
-    transition:all ease 3s;
+    border: solid green;
+    transition:all ease 0s;
 }
 
  .active{
@@ -38,5 +40,5 @@
     /* border-radius:15px 0; */
      cursor: pointer;
      border: solid green;
-     /* transition:all ease 3s; */
+     transition:all ease 0s;
 }

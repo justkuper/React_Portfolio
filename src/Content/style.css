@@ -9,7 +9,7 @@
 
 .Content >section {
     width:80%;
-    border-radius: 0 30px;
+    /* border-radius: 0 30px; */
     border:1px solid black;
     /* box-shadow:inset -5px -5px 10px black,5px 5px 10px black; */
     min-height:70vh;
