@@ -8,7 +8,7 @@ export default function PortfolioCard({data}) {
             <div className="overlay, ribbon">
                 <div className="links">
                 <a href={data.deploy} target="_blank"> <h3>{data.title}</h3></a>
-                <a href={data.link} target="_blank">repo</a>
+                <a href={data.link} target="_blank">✍🏽</a>
                 </div>
             </div>
         </div>

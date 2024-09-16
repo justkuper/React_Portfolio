@@ -18,14 +18,17 @@
  width:50%;
 }
 
-.Footer a, .Footer a:visited {
-    color:red;
+.Footer a {
+    color:green;
 }
 
 .Footer a:hover {
     opacity:0.5
 }
 
+.Footer a:visited {
+    color:red;
+}
 .center-text {
     text-align:center;
 }
