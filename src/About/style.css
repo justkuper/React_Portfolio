@@ -4,8 +4,13 @@
 .About img {
     float:left;
     width:25%;
+    margin: 20px;
+    margin-bottom: 40px;
 }
 
 .About p{
     margin:10px;
+    font-size: 50px;
+    text-align: center;
 }
+

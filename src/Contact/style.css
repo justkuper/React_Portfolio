@@ -2,6 +2,7 @@
     margin:3%;
     display: flex;
     flex-direction:column;
+    color: black;
 }
 
 .Contact div {
@@ -23,8 +24,15 @@
 } 
 .Contact > form > div > textarea {
     border:2px solid grey;
+    color: black;
 }
 
 .Contact button {
     font-size: 36px;
+    color: black;
+}
+
+input::placeholder, textarea::placeholder {
+    color: black;
+    font-style: italic;
 }
