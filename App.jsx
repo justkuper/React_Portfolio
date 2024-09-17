@@ -1,7 +1,7 @@
-import Header from "./Header"
-import Footer from "./Footer";
+import Header from "./src/Header"
+import Footer from "./src/Footer";
 import "./App.css"
-import Content from "./Content";
+import Content from "./src/Content";
 import react,{useState} from 'react'
 
 function App() {
